@@ -21,7 +21,7 @@
   "editor.inlineSuggest.enabled": false,
   "html.format.enable": true,
   "html.format.maxPreserveNewLines": 2,
-  "html.format.wrapLineLength": 0, // 0 = never wrap long lines of text
+  "html.format.wrapLineLength": 100, // 0 = never wrap long lines of text
   "html.format.wrapAttributesIndentSize": 2,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features",
@@ -60,5 +60,12 @@
   "chat.includeReferencedInstructions": true,
   "chat.useAgentsMdFile": true,
   // limit Intellisense help in the terminal
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
+  "python-envs.pythonProjects": [
+    {
+      "path": "images",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
+    }
+  ]
 }
